@@ -1,0 +1,14 @@
+{
+  "name": "leetcode-js",
+  "version": "1.0.0",
+  "description": "simple project to practice and test leetcode solutions in javascript",
+  "license": "ISC",
+  "author": "wforbes",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^30.1.3"
+  }
+}
