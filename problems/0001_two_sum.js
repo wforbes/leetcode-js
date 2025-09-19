@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-function twoSum(nums, target) {
+export default function twoSum(nums, target) {
     const m = new Map();
     for (let i = 0; i < nums.length; i++) {
         const diff = target - nums[i];
@@ -13,5 +13,3 @@ function twoSum(nums, target) {
         m.set(nums[i], i);
     }
 }
-
-module.exports = twoSum;

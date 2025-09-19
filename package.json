@@ -1,14 +1,16 @@
 {
   "name": "leetcode-js",
   "version": "1.0.0",
-  "description": "simple project to practice and test leetcode solutions in javascript",
+  "description": "simple project to practice and test leetcode solutions in javascript and typescript",
   "license": "ISC",
   "author": "wforbes",
+  "type": "module",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "vitest",
+    "test:run": "vitest run"
   },
-  "dependencies": {
-    "jest": "^30.1.3"
+  "devDependencies": {
+    "vitest": "^3.2.4"
   }
 }
