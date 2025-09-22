@@ -1,6 +1,11 @@
-import { strStr } from './problems/0028_str_str.js';
+import { encode, decode } from './problems/0271_encode_decode.js';
 
+let input0 = ['something', 'bro', 'another', 'bruh', 'tubular'];
+let encoded = encode(input0)
 
-console.log(strStr("sadbutsad", "sad"));
-console.log(strStr("hello", "ll"));
+let decoded = decode(encoded);
+
+console.log(input0);
+console.log(decoded);
+
 
