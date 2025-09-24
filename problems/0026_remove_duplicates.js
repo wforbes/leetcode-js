@@ -1,5 +1,16 @@
 
 export default function removeDuplicates(nums) {
+	let k = 1;
+	for (let i = 0; i < nums.length; i++) {
+		if (nums[i] !== nums[k-1]) {
+			nums[k] = nums[i];
+			k += 1;
+		}
+	}
+	return k;
+}
+
+export default function removeDuplicates_SLOW(nums) {
     let incomplete = true;
     let a = 0;
     let b = 1;
