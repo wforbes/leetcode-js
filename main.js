@@ -1,11 +1,13 @@
-import { encode, decode } from './problems/0271_encode_decode.js';
+import { maximalSquare2 } from "./problems/0221_maximal_square.js";
 
-let input0 = ['something', 'bro', 'another', 'bruh', 'tubular'];
-let encoded = encode(input0)
+const matrix = [ // leetcode test case 1
+	["1","0","1","0","0"],
+	["1","0","1","1","1"],
+	["1","1","1","1","1"],
+	["1","0","0","1","0"]
+];
 
-let decoded = decode(encoded);
+const result = maximalSquare2(matrix);
 
-console.log(input0);
-console.log(decoded);
-
+console.log(`result: ${result}`)
 
