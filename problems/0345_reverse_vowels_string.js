@@ -27,7 +27,7 @@ export function reverseVowels(s) {
 	return rs.join("");
 }
 
-//
+// fastest - using if/else, using toLower w/no upper in vowels array
 export function reverseVowels2(s) {
 	let vowels = ["a", "e", "i", "o", "u"];
 	let sArr = s.split("");
