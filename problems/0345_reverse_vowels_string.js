@@ -1,3 +1,9 @@
+/**
+ * https://leetcode.com/problems/reverse-vowels-of-a-string/
+ * https://www.codeintuition.io/courses/array/zYAsf-P_QnxmbTc3RlN1c
+ * @param {string} s
+ * @return {string}
+ */
 export function reverseVowels(s) {
 	let rs = s.split("");
 	let vowels = [
