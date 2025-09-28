@@ -1,3 +1,9 @@
+/**
+ * https://leetcode.com/problems/reverse-words-in-a-string-iii
+ * https://www.codeintuition.io/courses/array/7RaTsdGSXLO4NDAd_9W1H
+ * @param {string} s
+ * @return {string}
+ */
 export const reverseWords = function (s) {
 	let words = s.split(/[\s+]/g);
 	for (let i = 0; i < words.length; i++) {
