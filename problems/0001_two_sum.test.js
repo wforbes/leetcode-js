@@ -1,8 +1,12 @@
 import { test, expect } from 'vitest';
-import twoSum from './0001_two_sum.js';
+import { twoSum, twoSum2 } from './0001_two_sum.js';
 
-test('Handles out of order numbers where solution exists', () => {
+test('3 items, out of order, solution exists', () => {
     expect(twoSum([3, 2, 4], 6)).toEqual([1, 2]);
+});
+
+test('8 items, out of order, solution exists', () => {
+    expect(twoSum([4, 1, 2, 7, 8, 5, 0, 6], 13)).toEqual([4, 5]);
 });
 
 test('Handles 4 numbers where solution exists', () => {
