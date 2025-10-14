@@ -1,6 +1,18 @@
 import { test, expect } from "vitest";
 import { MyStack } from "./0225_implement_stack_using_queues";
 
+/* test legend from LLM
+Basic stack operations - The main LeetCode example with push, pop, top, and empty operations
+Multiple elements - Testing LIFO (Last-In-First-Out) order with multiple push/pop operations
+Empty stack behavior - Verifying the empty() method works correctly
+Top method - Ensuring top() returns the element without removing it
+Alternating operations - Mixed push and pop operations
+Negative numbers - Handling negative values
+Duplicate values - Testing with repeated values
+Single element - Edge case with just one element
+Large sequence - More complex scenario with many operations
+*/
+
 test("basic stack operations - LeetCode Example 1", () => {
 	const myStack = new MyStack();
 	
